@@ -730,6 +730,192 @@
     }
 }
 
+@media(max-width: 520px){
+    .flex{
+        flex-wrap: wrap;
+    }
+    .mar-tb80{
+        margin: 40px 0;
+    }
+    .fs-20{
+        font-size: 12px;
+    }
+    .container{
+        max-width: 520px;
+    }
+    .header{
+        min-height: 568px;
+    }
+    .stars{
+        height: 33vh;
+        min-height: calc(100vh / 3);
+    }
+    .logo{
+        min-height: calc(100vh / 14);
+    }
+    .grid{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(61, 60px);
+    }
+    .st{
+        width: 5.5%;
+    }
+    .b-st{
+        width: 9.75%;
+    }
+    .st1{
+        top: 60px;
+        left: 7.8%;
+    }
+    .st2{
+        top: 110px;
+        left: 1.6%;
+    }
+    .st3{
+        top: 65px;
+        left: 14.1%;
+    }
+    .st4{
+        top: 0px;
+        left: -15.6%;
+    }
+    .st5{
+        top: -10px;
+        left: 10.9%;
+    }
+    .st6{
+        top: 80px;
+        left: -1.6%;
+    }
+    .st7{
+        top: 45px;
+        left: 56.25%;
+    }
+    .st8, .st9, .st10, .st11, .st12{
+        display: none;
+    }
+    .logo img{
+        width: 235px;
+    }
+    .cards{
+        gap: 12.5%;
+    }
+    .card{
+        width: calc(100% / 2 - 35px);
+        height: 240px;
+        margin-bottom: 40px;
+    }
+    .sc{
+        background-image: none;
+    }
+    .inf{
+        color: #FFEDCA;
+        top: 8%;
+        left: 10%;
+        width: 85%;
+    }
+    .sc-3{
+        margin-left: 0%;
+    }
+    .sc-5{
+        margin-left: 0%;
+    }
+    .drops{
+        grid-column: span 1;
+        grid-row: span 11;
+        order: 1;
+    }
+    .run{
+        grid-column: span 1;
+        grid-row: span 3;
+        order: 3;
+        writing-mode: unset;
+        text-orientation: mixed;
+    }
+    .change{
+        grid-column: span 1;
+        grid-row: span 12;
+        order: 2;
+    }
+    .change img{
+        width: 120%;
+    }
+    .ignate{
+        grid-column: span 1;
+        grid-row: span 8;
+        order: 4;
+    }
+    .ignate-st1{
+        width: 93%;
+    }
+    .ignate-st2{
+        margin-left: -81%;
+    }
+    .ignate-st3{
+        width: 45.8%;
+        margin-left: -57%;
+    }
+    .ignate-st4{
+        width: 33%;
+        margin-left: -39.6%;
+    }
+    .rotate{
+        grid-column: span 1;
+        grid-row: span 8;
+        order: 5;
+    }
+    .fireflies{
+        grid-row: span 10;
+        grid-column: span 1;
+        order: 6;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        top: 7%;
+    }
+    .shine{
+        grid-row: span 9;
+        grid-column: span 1;
+        order: 7;
+        padding-right: 30%;
+        height: 540px;
+    }
+    .footer{
+        padding: 40px;
+    }
+    .hse-logo{
+        margin-top: 40px;
+        width: 100%;
+    }
+    h1{
+        margin-left: 23%;
+        width: 120px;
+    }
+    h2{
+        font-size: 80px;
+        padding-top: 0px;
+        padding-right: 20px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .change-star {
+        left: 53%;
+    }
+
+    .change-star .si3 {
+        display: block;
+    }
+}
+
 @media(max-width: 320px){
     .flex{
         flex-wrap: wrap;
