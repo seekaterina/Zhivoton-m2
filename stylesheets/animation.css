@@ -41,6 +41,10 @@
     animation-timing-function: linear;
 }
 
+.st:hover, .b-st:hover{
+    animation-play-state: paused;
+}
+
 @keyframes sc3{
     0%{
         background-image: url(../images/star.svg);
@@ -372,6 +376,10 @@
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
+}
+
+.drops:hover{
+    animation-play-state: paused;
 }
 
 @keyframes run{
